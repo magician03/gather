@@ -31,7 +31,7 @@
         {
             apologize("Passwords donot match.");
         }
-        //CS50::query("INSERT IGNORE INTO user (username, hash, mobile, email) VALUES(?, ?, ?, ?)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT), $_POST["mobile"], $_POST["email"]);
+        CS50::query("INSERT IGNORE INTO user (username, hash, mobile, email) VALUES(?, ?, ?, ?)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT), $_POST["mobile"], $_POST["email"]);
         
         $result  = CS50::query("INSERT IGNORE INTO user (username, hash, mobile, email) VALUES(?, ?, ?, ?)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT), $_POST["mobile"], $_POST["email"]);
         if( $result === false)

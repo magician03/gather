@@ -26,12 +26,15 @@
         // query database for user
         $rows = CS50::query("SELECT * FROM user WHERE username = ?", $_POST["username"]);
 
+        echo "Hello1";
+        echo count($rows);
         // if we found user, check password
         if (count($rows) == 1)
         {
+            echo "Hello123";
             // first (and only) row
             $row = $rows[0];
-
+            echo "Hello";
             // compare hash of user's input against hash that's in database
             if (password_verify($_POST["password"], $row["hash"]))
             {
@@ -44,7 +47,7 @@
         }
 
         // else apologize
-        apologize("Invalid username and/or password.");
+        apologize("Shit");
     }
 
 ?>
