@@ -8,37 +8,37 @@ $cities=array("Mumbai","Delhi","Bangalore","Hyderabad","Ahmedabad","Chennai","Ko
 
 ?>
 
+<div class="container">
 
 <form action="organise.php" method="POST" role="form">
-
-    <div class="form-group">
-        <label class="sr-only" for="">label</label>
-        <input type="text" class="form-control" name="eventname" required="required" placeholder="Event Name">
+ <div class="input-field col s5">
+          
+        <input type="text"  name="eventname" required="required" placeholder="Event Name">
     </div>
 
-    <div class="form-group">Date,Time:
-        <label class="sr-only" for="">label</label>
-        <input type="datetime-local" class="form-control" name="time" required="required" placeholder="Date&Time of event">
-    </div>
-    
-    <div class="form-group">
-        <label class="sr-only" for="">label</label>
-        <input type="text" class="form-control" required="required" name="amount" placeholder="Amount req/ Head(INR)">
+    <div class="input-field col s5">
+        
+        <input type="datetime-local"  name="time" required="required" placeholder="Date&Time of event">
     </div>
     
-    <div class="form-group">
-        <label class="sr-only" for="">label</label>
-        <input type="number" class="form-control" required="required" name="max_mem" placeholder="Max mem">
+    <div class="input-field col s5">
+        
+        <input type="text"  required="required" name="amount" placeholder="Amount req/ Head(INR)">
+    </div>
+    
+    <div class="input-field col s5">
+        
+        <input type="number"  required="required" name="max_mem" placeholder="Max mem">
     </div>
 
-    <div class="form-group">
-        <label class="sr-only" for="">label</label>
-        <input type="number" class="form-control" required="required" name="min_mem" placeholder="Min mem">
+    <div class="input-field col s5">
+        
+        <input type="number"  required="required" name="min_mem" placeholder="Min mem">
     </div>
 
 
-    <div class="form-group">
-        <select class ="form-control" name = "type">
+    <div class="input-field col s5">
+        <select  name = "type">
                         <option value = "None">Interest/Category</option>
                         
                         
@@ -51,7 +51,7 @@ $cities=array("Mumbai","Delhi","Bangalore","Hyderabad","Ahmedabad","Chennai","Ko
                             <option value ="movie" >Hangout </option>
                             <option value ="pool" >Transport Pooling </option>
                             <option value ="projects" >Project </option>
-                            <option value ="Random" >Random(!) </option>
+                            
 
               </select>
         
@@ -60,8 +60,8 @@ $cities=array("Mumbai","Delhi","Bangalore","Hyderabad","Ahmedabad","Chennai","Ko
 
     </div>
     
-    <div class="form-group">
-        <select class ="form-control" required="required" name = "city">
+    <div class="input-field col s5">
+        <select  required="required" name = "city">
                         <option value = "None">Select your City</option>
                         
                         <?php foreach ($cities as $city): ?>
@@ -76,7 +76,7 @@ $cities=array("Mumbai","Delhi","Bangalore","Hyderabad","Ahmedabad","Chennai","Ko
 
 
     <div class="form-group">
-        <select class ="form-control" name = "duration">
+        <select  name = "duration">
                         
                         
                         
@@ -96,11 +96,15 @@ $cities=array("Mumbai","Delhi","Bangalore","Hyderabad","Ahmedabad","Chennai","Ko
     <br/><br/>
 
 
-    <textarea  rows="4" cols="35" placeholder="Describe your event in brief..." name="details" id="input" class="form-control" rows="3" required="required"></textarea>
-
+   
+    <div class="input-field col s5">
+          <textarea placeholder="Describe your event in brief..." name="details" id="input" class="materialize-textarea"></textarea>
+          
+        </div>
     <br/><br/>
     
 
     <button type="submit" class="btn btn-primary">Organise this Gathering..!</button>
 </form>
 
+</div>

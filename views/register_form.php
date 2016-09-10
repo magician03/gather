@@ -1,139 +1,79 @@
-<form action="register.php" method="post">
-    <fieldset>
-        <div class="form-group">
-            <input autocomplete="off" autofocus class="form-control" name="username" required="required" placeholder="Username" type="text"/>
-        </div>
-        <div class="form-group">
-        <input class="form-control" type="email" name="email" class="form-control" placeholder="E-mail address" required="required">
-        </div>
-        <div class="form-group">
-        <input class="form-control" type="number" name="mobile" class="form-control" placeholder="Mobile no" required="required">
-        </div>
-        <div class="form-group">
-            <input class="form-control" name="password" placeholder="Password" required="required" type="password"/>
-        </div>
-        <div>
-            <input class="form-control" name="confirmation" placeholder = "Confirm" required="required" type="password"/>
-        </div><br/>
-        <div class="form-group">
-            <button class="btn btn-default" type="submit">
-                <span aria-hidden="true" class="glyphicon glyphicon-flash"></span>
-                Register
-            </button>
-        </div>
-    </fieldset>
-</form>
 
-
-<div>
-   or <br/><br/><div><button class="btn btn-default">
-   <span aria-hidden="true" class="glyphicon glyphicon-log-in"></span>
-   <a href="login.php">Log In</a></button><br/><br/>
-
-  <div id="carousel-id" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-id" data-slide-to="1" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="2" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="3" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="4" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="5" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="6" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="7" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="8" class=""></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="item">
-        <img  alt="Movie" src="/img/movie.jpg">
-        <div class="container">
-          <div class="carousel-caption">
-            <h3>Never again watch the </h3><h1>Movies</h1><h3> alone..!Have some fun</h3>
-            
-            
-          </div>
-        </div>
-      </div>
-      <div class="item active">
-        <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Sport" src="/img/sports.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="color:#DCCDD9;">
-            <h3>Sick of Devices..Get yourself some exercise..Nothing beats outdoor </h3><h1>Games</h1><h3> in this..!</h3>
-            
-            
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Party" src="/img/party.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="color:blue;">
-            <h1>Parties.</h1>
-            
-            
-          </div>
-        </div>
-      </div>
-       <div class="item">
-        <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:Fourth slide" alt="Trip" src="/img/trip.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="color:#B0A5AE;">
-            <h1>Trips.</h1><h3>Tired of requesting to travel to favorite destinations..?, who knows, you may find someone with your likes too..!</h3>
-            
-            
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Fifth slide" alt="Volunteer" src="/img/volunteer1.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="color:#635861;">
-            <h1>Volunteer</h1><h3>What could get better than this..Restore the faith in humanity, volunteer with other peers</h3>
-            
-            
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Sixth slide" alt="Date" src="/img/dating.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="color:#F3AE6D;">
-            <h1>Blind Date</h1>
-            
-            
-          </div>
-        </div>
-      </div>
-       <div class="item">
-        <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:Seventh slide" alt="Hangout" src="/img/hangout.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="color:#82D6E1;">
-            <h3>Having some time..?Dunno how to spend..!!</h3><br/><h1>Hangouts</h1><br/><h3>You are at the right place..Organise a hangout</h3>
-            
-            
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Eigth slide" alt="Pool" src="/img/pooling.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="color:#0E5C04;">
-            <h1></h1><h3>Who knows there might someother guys near you who wishes to save the planet as you..!</h3>
-            
-            
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Ninth slide" alt="Project" src="/img/projects.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="color:blue;">
-            <h1>Projects</h1>.<h3>These are best done with our thing..!</h3>
-            
-            
-          </div>
-        </div>
-      </div>
+<div class="col s12 m12 l12">
+  <div class="carousel carousel-slider centercol l12 center" onclick="Materialize.fadeInImage('#imager')" id="imager" data-indicators="true">
+    <div class="carousel-item white-text" href="#one" id="image1">
+     
+      <h2>First Panel</h2>
+      <p class="white-text center">This is your first panel</p>
     </div>
-    <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    <div class="carousel-item white-text" href="#two!" id="image2">
+      <h2>Second Panel</h2>
+      <p class="white-text center">This is your second panel</p>
+    </div>
+    <div class="carousel-item white-text" href="#three!" id="image3">
+      <h2>Third Panel</h2>
+      <p class="white-text center">This is your third panel</p>
+    </div>
+     <div class="carousel-item white-text" href="#three!" id="image4">
+      <h2>Third Panel</h2>
+      <p class="white-text center">This is your third panel</p>
+    </div>
+     <div class="carousel-item white-text" href="#three!" id="image5">
+      <h2>Third Panel</h2>
+      <p class="white-text center">This is your third panel</p>
+    </div>
+    <div class="carousel-item white-text" href="#four!" id="image6">
+      <h2>Fourth Panel</h2>
+      <p class="white-text center">This is your fourth panel</p>
+    </div>
   </div>
+  </div>
+  
+  <div class="container">
+<form action="register.php" method="post">    
+
+  
+        <h2>Register</h2>
+        <hr>
+       
+    <form class="col s12 m6" action="register.php" method="post">
+    
+          <div class="input-field col s5">
+          <input id="first_name" type="text" class="validate" name="username">
+          <label for="first_name">Username</label>
+        </div>
+        <div class="input-field col s5">
+          <input id="last_name" type="email" class="validate" name="email">
+          <label for="last_name">Email Address</label>
+        </div>
+      
+    
+        <div class="input-field col s5">
+          <input id="mobile" name="mobile" type="number" class="validate">
+          <label for="mobile">Mobile Number</label>
+      </div>
+     
+        <div class="input-field col s5">
+          <input id="password" name="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      
+        <div class="input-field col s5">
+          <input id="email" name="confirmation"  type="password" class="validate">
+          <label for="email">Re-type Password</label>
+        </div>
+      
+      <div class="center-align">
+         <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+         <br>
+         OR
+         <br>
+          <a href="login.php" class="waves-effect waves-light btn blue">Log In</a><br/><br/>
+          <a href="https://www.google.co.in" class="waves-effect waves-light btn blue">Google</a><br/><br/>
+      </div>
+   </form>
+   <h1>Why Gather?</h1>
+  </div>
+        

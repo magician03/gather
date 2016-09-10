@@ -31,6 +31,14 @@
     		$_POST["type"],
     		$_POST["city"]);
 
+        $curatt = CS50::query("SELECT * from events ORDER BY event_id DESC LIMIT 1");
+        $curuser = $curatt[0]["event_id"];
+        
+        //echo($curuser."jbfvhjfbvhb ". $_SESSION["id"]);
+        
+        CS50::query("INSERT INTO att VALUES(?, ?)", 
+    		$curuser,
+    		$_SESSION["id"]);
         
 
     	redirect("/");

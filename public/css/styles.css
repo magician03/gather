@@ -13,6 +13,11 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#normal{
+    text-align:left;
 }
 
 #top
@@ -44,4 +49,61 @@
 
     /* surround with whitespace */
     margin: 20px;
+}
+
+body{
+    background-image: url("../pattern(3).png");
+}
+
+form {
+    background: rgba(255, 235, 238, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#image1{
+   background-size: 100% 100%;
+      height: 100vh;
+     width: 100%;
+    background-image: url("../img/trip-1280x688.jpg");
+}
+#image2{
+   background-size: 100% 100%;
+      height: 100vh;
+     width: 100%;
+    background-image: url("../img/movie-1280x688.jpg");
+}
+#image3{
+   background-size: 100% 100%;
+      height: 100vh;
+     width: 100%;
+    background-image: url("../img/party-1280x688.jpg");
+}
+#image4{
+   background-size: 100% 100%;
+      height: 100vh;
+     width: 100%;
+    background-image: url("../img/sports-1280x688.jpg");
+}
+#image5{
+   background-size: 100% 100%;
+      height: 100vh;
+     width: 100%;
+    background-image: url("../img/dating-1280x688.jpg");
+}
+#image6{
+   background-size: 100% 100%;
+      height: 100vh;
+     width: 100%;
+    background-image: url("https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwixx5ag34XPAhUDtI8KHZZTDEMQjRwIBw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dyjmg9vmiDME&bvm=bv.132479545,d.c2I&psig=AFQjCNFGSUEGJ71nqpwdoxubfvelSuyoXQ&ust=1473629303436452");
+}
+#aboutimage1 {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#buttonsocial {
+  position: absolute;
 }
