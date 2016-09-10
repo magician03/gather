@@ -3,8 +3,8 @@
   <div class="carousel carousel-slider centercol l12 center" onclick="Materialize.fadeInImage('#imager')" id="imager" data-indicators="true">
     <div class="carousel-item white-text" href="#one" id="image1">
      
-      <h2>First Panel</h2>
-      <p class="white-text center">This is your first panel</p>
+      <h2>Gather</h2>
+      <p class="white-text center">To Tour</p>
     </div>
     <div class="carousel-item white-text" href="#two!" id="image2">
       <h2>Second Panel</h2>
