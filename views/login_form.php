@@ -6,6 +6,10 @@
      <div class="carousel-fixed-item center">
       <a href="#x" class="btn waves-effect grey white-text darken-text-2">Scroll Down</a>
     </div>
+    <div class="carousel-item white-text" href="#three!" id="image4">
+      <h1>Gather</h1>
+      <h2 class="white-text center">To Play!</h2>
+    </div>
     <div class="carousel-item white-text" href="#one" id="image1">
      
       <h1>Gather</h1>
@@ -19,10 +23,7 @@
       <h1>Gather</h1>
       <h2 class="white-text center">To Party!</h2>
     </div>
-     <div class="carousel-item white-text" href="#three!" id="image4">
-      <h1>Gather</h1>
-      <h2 class="white-text center">To Play!</h2>
-    </div>
+     
      <div class="carousel-item white-text" href="#three!" id="image5">
       <h1>Gather</h1>
       <h2 class="white-text center">To Date!</h2>

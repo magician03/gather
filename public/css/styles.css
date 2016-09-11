@@ -105,7 +105,11 @@ form {
   width: 200px;
   height: 200px;
 }
-
+#aboutimage2 {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
 #buttonsocial {
   position: absolute;
 }

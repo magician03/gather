@@ -1,6 +1,6 @@
 <div class="container">
 <div class="center">
-<h1>ABOUT US</h1><hr></div>
+<h2>Our Dev Team</h2><hr></div>
 <div class="about1">
      
  
@@ -8,16 +8,13 @@
         <div class="col s12">
           <div class="card deep-orange darken-3">
             <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Diwakar</span>
               <div class="row">
               
               
-              <div class="card-image col m3">
-        <img id="aboutimage1"  src="http://lorempixel.com/100/190/nature/6">
-      </div>
-              <p class="col m6">I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.
-              Sed iaculis felis massa, sed lacinia lectus laoreet ac. Nunc cursus felis mauris, a dapibus dui feugiat aliquam. Aenean neque purus, aliquet ut nibh in, finibus venenatis felis. Ut mi erat, lacinia et lorem eget, pretium auctor velit. Vestibulum vel velit mattis, faucibus lectus sed, molestie mauris. Vivamus finibus efficitur urna, vel varius neque porta quis. Vestibulum nec odio laoreet, aliquet tellus ullamcorper, elementum neque. Vivamus et tempus mauris. Nulla facilisi. Phasellus venenatis elementum rutrum. Donec efficitur neque neque, commodo tempor neque vulputate nec. </p>
+               <div class="card-image col m3">
+        <img id="aboutimage1"  src="https://avatars1.githubusercontent.com/u/15110387"></div>
+              <p class="col m6">  Diwakar is our team head managing the workflow and services of the product. He loves to do web Development and contribute to open sources. In leisure, he goes for swimming, Read Tech-Blogs and if at home he does gardening.</p>
             </div>
             <div class="card-action">
              
@@ -26,12 +23,11 @@
       <i class="material-icons">person_pin</i>
     </a>
     <ul>
-      <li><a class="btn-floating blue"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      <li><a class="btn-floating red darken-1"><i class="fa fa-google-plus" aria-hidden="true"></i>
+      <li><a href="https://www.facebook.com/magician03" class="btn-floating blue"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      
+      <li><a href="https://www.github.com/magician03" class="btn-floating grey"><i class="fa fa-github" aria-hidden="true"></i>
 </a></li>
-      <li><a class="btn-floating grey"><i class="fa fa-github" aria-hidden="true"></i>
-</a></li>
-      <li><a class="btn-floating green"><i class="fa fa-user" aria-hidden="true"></i>
+      <li><a href="https://magician03.github.io/" class="btn-floating green"><i class="fa fa-user" aria-hidden="true"></i>
 </a></li>
     </ul>
   </div>
@@ -45,16 +41,14 @@
         <div class="col s12">
           <div class="card deep-orange darken-3">
             <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Pentakota Dinesh</span>
               <div class="row">
               
               
               <div class="card-image col m3">
-        <img id="aboutimage1"  src="http://lorempixel.com/100/190/nature/6">
+        <img id="aboutimage1"  src="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAQUAAAAJDJiMDk1OWMxLWVkODktNDg4My1hMjA4LWFkZmMxNGUzNGZmZQ.jpg">
       </div>
-              <p class="col m6">I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.
-              Sed iaculis felis massa, sed lacinia lectus laoreet ac. Nunc cursus felis mauris, a dapibus dui feugiat aliquam. Aenean neque purus, aliquet ut nibh in, finibus venenatis felis. Ut mi erat, lacinia et lorem eget, pretium auctor velit. Vestibulum vel velit mattis, faucibus lectus sed, molestie mauris. Vivamus finibus efficitur urna, vel varius neque porta quis. Vestibulum nec odio laoreet, aliquet tellus ullamcorper, elementum neque. Vivamus et tempus mauris. Nulla facilisi. Phasellus venenatis elementum rutrum. Donec efficitur neque neque, commodo tempor neque vulputate nec. </p>
+              <p class="col m6">Dinesh is a creative web developer from IIIT-Allahabad. He makes attractive front-end for webpages. He does crazy stuff just for fun. Plays all games. He tries to learn new stuff and experiment things. Plays games and listens to music in free time.</p>
             </div>
             <div class="card-action">
              
@@ -64,10 +58,8 @@
     </a>
     <ul>
      <li><a class="btn-floating blue"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      <li><a class="btn-floating red darken-1"><i class="fa fa-google-plus" aria-hidden="true"></i>
-</a></li>
-      <li><a class="btn-floating grey"><i class="fa fa-github" aria-hidden="true"></i>
-</a></li>
+      <li><a class="btn-floating red darken-1"><i class="fa fa-google-plus" aria-hidden="true"></a></i>
+
     </ul>
   </div>
         
@@ -80,16 +72,14 @@
         <div class="col s12">
           <div class="card deep-orange darken-3">
             <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Arul Praakash</span>
               <div class="row">
               
               
               <div class="card-image col m3">
-        <img id="aboutimage1"  src="http://lorempixel.com/100/190/nature/6">
+        <img id="aboutimage2"  src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/13423872_1006841006078518_3128128777154082838_n.jpg?oh=e65951163beb81aadfda221c7054408b&oe=583D15FD">
       </div>
-              <p class="col m6">I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.
-              Sed iaculis felis massa, sed lacinia lectus laoreet ac. Nunc cursus felis mauris, a dapibus dui feugiat aliquam. Aenean neque purus, aliquet ut nibh in, finibus venenatis felis. Ut mi erat, lacinia et lorem eget, pretium auctor velit. Vestibulum vel velit mattis, faucibus lectus sed, molestie mauris. Vivamus finibus efficitur urna, vel varius neque porta quis. Vestibulum nec odio laoreet, aliquet tellus ullamcorper, elementum neque. Vivamus et tempus mauris. Nulla facilisi. Phasellus venenatis elementum rutrum. Donec efficitur neque neque, commodo tempor neque vulputate nec. </p>
+              <p class="col m6"> Arul Prakaash is the man behind the super awesome chatbot and Google Play Dev Console. He loves to do algorithmic programming and contribute to open sources. In leisure, he watches all the TV-series. </p>
             </div>
             <div class="card-action">
              
@@ -115,16 +105,14 @@
         <div class="col s12 m">
           <div class="card deep-orange darken-3">
             <div class="card-content white-text">
-              <span class="card-title">person_pin</span>
+              <span class="card-title">Akshay Kumar</span>
               <div class="row">
               
               
               <div class="card-image col m3">
-        <img id="aboutimage1"  src="http://lorempixel.com/100/190/nature/6">
+        <img id="aboutimage1"  src="https://drive.google.com/file/d/0B_H2C9JMlz0cNG1EVlBaNWg5ajlvNEVEVnluaVExNFFBazE0/view?usp=sharing">
       </div>
-              <p class="col m6">I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.
-              Sed iaculis felis massa, sed lacinia lectus laoreet ac. Nunc cursus felis mauris, a dapibus dui feugiat aliquam. Aenean neque purus, aliquet ut nibh in, finibus venenatis felis. Ut mi erat, lacinia et lorem eget, pretium auctor velit. Vestibulum vel velit mattis, faucibus lectus sed, molestie mauris. Vivamus finibus efficitur urna, vel varius neque porta quis. Vestibulum nec odio laoreet, aliquet tellus ullamcorper, elementum neque. Vivamus et tempus mauris. Nulla facilisi. Phasellus venenatis elementum rutrum. Donec efficitur neque neque, commodo tempor neque vulputate nec. </p>
+              <p class="col m6">He is a coding enthusiast who likes to keep his cards till the end.He like to spend his time in exploring things at the cost of anything. Do crazy stuffs.Loves soft music and keen to learn. </p>
             </div>
             <div class="card-action">
              
@@ -150,16 +138,14 @@
         <div class="col s12 m">
           <div class="card deep-orange darken-3">
             <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Divit</span>
               <div class="row">
               
               
               <div class="card-image col m3">
         <img id="aboutimage1"  src="http://lorempixel.com/100/190/nature/6">
       </div>
-              <p class="col m6">I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.
-              Sed iaculis felis massa, sed lacinia lectus laoreet ac. Nunc cursus felis mauris, a dapibus dui feugiat aliquam. Aenean neque purus, aliquet ut nibh in, finibus venenatis felis. Ut mi erat, lacinia et lorem eget, pretium auctor velit. Vestibulum vel velit mattis, faucibus lectus sed, molestie mauris. Vivamus finibus efficitur urna, vel varius neque porta quis. Vestibulum nec odio laoreet, aliquet tellus ullamcorper, elementum neque. Vivamus et tempus mauris. Nulla facilisi. Phasellus venenatis elementum rutrum. Donec efficitur neque neque, commodo tempor neque vulputate nec. </p>
+              <p class="col m6">He is a coding enthusiast who likes to keep his cards till the end.He like to spend his time in exploring things at the cost of anything. Do crazy stuffs.Loves soft music and keen to learn. </p>
             </div>
             <div class="card-action">
              
@@ -182,3 +168,12 @@
         </div>
       </div>
 </div>
+<?php
+echo ' 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "t">
+<html>
+<img src="../imag/hello1.png" width="280" height="125" title="Logo of a company" alt="Logo of a company" />
+
+</html>
+';
+?>

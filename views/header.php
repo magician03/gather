@@ -50,7 +50,7 @@
         <li><a class="waves-effect" href="organise.php"><em>Organise An Event</em></a></li>
         <li><a class="waves-effect" href="change.php">Change Interests</a></li>
         <li><a class="waves-effect" href="history.php">History</a></li>
-        <li><a class="waves-effect" href="about.php">About Us</a></li>
+        <li><a class="waves-effect" href="about.php">Dev Team</a></li>
         <li><a class="waves-effect" href="changepassword.php">Change Password</a></li>
         <li><a class="waves-effect" href="logout.php"><strong>Log Out</strong></a></li>
       </ul>
@@ -58,7 +58,7 @@
         <li><a class="waves-effect" href="organise.php"><em>Organise An Event</em></a></li>
         <li><a class="waves-effect" href="change.php">Change Interests</a></li>
         <li><a class="waves-effect" href="history.php">History</a></li>
-        <li><a class="waves-effect" href="about.php">About Us</a></li>
+        <li><a class="waves-effect" href="about.php">Dev Team</a></li>
         <li><a class="waves-effect" href="changepassword.php">Change Password</a></li>
         <li><a class="waves-effect" href="logout.php"><strong>Log Out</strong></a></li>
       </ul>
