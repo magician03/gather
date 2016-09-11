@@ -1,35 +1,41 @@
 
 <div class="col s12 m12 l12">
   <div class="carousel carousel-slider centercol l12 center" onclick="Materialize.fadeInImage('#imager')" id="imager" data-indicators="true">
+   <div class="carousel-fixed-item center">
+      <a href="#xyz" class="btn waves-effect grey white-text darken-text-2">Scroll Down</a>
+    </div>
     <div class="carousel-item white-text" href="#one" id="image1">
      
-      <h2>Gather</h2>
-      <p class="white-text center">To Tour</p>
+      <h1>Gather</h1>
+     
+      <h2 class="white-text center">To Tour!</h2>
+
     </div>
     <div class="carousel-item white-text" href="#two!" id="image2">
-      <h2>Second Panel</h2>
-      <p class="white-text center">This is your second panel</p>
+      
+      <h1>Gather</h1>
+      <h2 class="white-text center">To Watch Movie!</h2>
     </div>
     <div class="carousel-item white-text" href="#three!" id="image3">
-      <h2>Third Panel</h2>
-      <p class="white-text center">This is your third panel</p>
+      <h1>Gather</h1>
+      <h2 class="white-text center">To Party!</h2>
     </div>
      <div class="carousel-item white-text" href="#three!" id="image4">
-      <h2>Third Panel</h2>
-      <p class="white-text center">This is your third panel</p>
+      <h1>Gather</h1>
+      <h2 class="white-text center">To Play!</h2>
     </div>
      <div class="carousel-item white-text" href="#three!" id="image5">
-      <h2>Third Panel</h2>
-      <p class="white-text center">This is your third panel</p>
+      <h1>Gather</h1>
+      <h2 class="white-text center">To Date!</h2>
     </div>
     <div class="carousel-item white-text" href="#four!" id="image6">
-      <h2>Fourth Panel</h2>
-      <p class="white-text center">This is your fourth panel</p>
+      <h1>Gather</h1>
+      <h2 class="white-text center">To Carppol!</h2>
     </div>
   </div>
   </div>
   
-  <div class="container">
+  <div class="container" id="xyz">
 <form action="register.php" method="post">    
 
   
@@ -71,9 +77,39 @@
          OR
          <br>
           <a href="login.php" class="waves-effect waves-light btn blue">Log In</a><br/><br/>
-          <a href="https://www.google.co.in" class="waves-effect waves-light btn blue">Google</a><br/><br/>
+          
       </div>
    </form>
-   <h1>Why Gather?</h1>
   </div>
+  <div class="container">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card N/A transparent darken-1">
+            <div class="card-content">
+              <span class="card-title"><h4 class="center">What is Gather?</h4></span>
+              <p>The Gather app is a social app that was aimed to increase in-person interaction between individuals. Unlike other major social apps that focus on solely chatting or online dating, the Gather app focuses on organizing and managing an event, that can be attended by large groups of people. Be it a sports match, a party,  garage-sale or even probably a hackathon,  or even two people  who may be interested in dating or a couple friends meeting to catch up about their lives - the app does it all.</p>             </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col s12 m12">
+          <div class="card N/A transparent darken-1">
+            <div class="card-content">
+              <span class="card-title"><h4 class="center">Why Gather?</h4></span>
+              <p>In this internet age where people are more glued to the phones with chatting apps, where people have drawn a thin line between the virtual world and the real world, we present an app that encourages people to actually meet and interact, play a game or two, organize something huge besides, socializing and building contacts. And, we all very well know the benefits of outdoor activities and socializing.</p></div>
+          </div>
+        </div>
+      </div>
+         <div class="row">
+        <div class="col s12 m12">
+          <div class="card N/A transparent darken-1">
+            <div class="card-content">
+              <span class="card-title"><h4 class="center">How Gather Works?</h4></span>
+              <p>Gather  is a web application that facilitates offline  meetings in various localities around the world. 
+Gather lets you join events of various kinds like movies, sports, trips, hangouts, date, volunteering services, cool projects and many more.
+Gather uses MVC framework based on Harvard's CS50 PHP library.</p></div>
+          </div>
+        </div>
+      </div>  
+      </div>
         

@@ -1,18 +1,20 @@
-/**
- * styles.css
- *
- * Computer Science 50
- * Problem Set 7
- *
- * Global CSS.
- */
 
+.fblike{
+ 
+     position: fixed;
+     bottom: 0;
+     right: 0;
+}
 .container
 {
     /* center contents */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
     font-family: 'Open Sans', sans-serif;
 }
 
