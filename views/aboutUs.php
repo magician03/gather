@@ -168,12 +168,4 @@
         </div>
       </div>
 </div>
-<?php
-echo ' 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "t">
-<html>
-<img src="../imag/hello1.png" width="280" height="125" title="Logo of a company" alt="Logo of a company" />
 
-</html>
-';
-?>

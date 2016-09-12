@@ -30,7 +30,7 @@
     </div>
     <div class="carousel-item white-text" href="#four!" id="image6">
       <h1>Gather</h1>
-      <h2 class="white-text center">To Carppol!</h2>
+      <h2 class="white-text center">To Carpool!</h2>
     </div>
   </div>
   </div>
@@ -57,6 +57,9 @@
       <a href="register.php" class="waves-effect waves-light btn blue ">Register</a>
       <br/>
       <br/>
+      
+      <a href="https://play.google.com/store/apps/details?id=gatherdiwakarvinay.cs.io.gather" target="_blank" class="waves-effect waves-light btn blue">Check Us at PlayStore</a><br/><br/>
+      <a href="https://www.facebook.com/gatherMagicians/" target="_blank" class="waves-effect waves-light btn blue">Our Messenger bot</a><br/><br/>
     </div>
   </form>
    <div class="container">
